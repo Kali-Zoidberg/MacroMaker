@@ -1,0 +1,51 @@
+﻿  Tracker.cpp
+Tracker.cpp(104): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+Tracker.cpp(105): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+Tracker.cpp(106): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+Tracker.cpp(121): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+Tracker.cpp(122): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+Tracker.cpp(125): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+Tracker.cpp(144): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+Tracker.cpp(147): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+Tracker.cpp(148): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+Tracker.cpp(156): warning C4244: 'argument': conversion from '__int64' to 'cliext::impl::vector_impl<_Value_t,false>::size_type', possible loss of data
+          with
+          [
+              _Value_t=keyStructure ^
+          ]
+Tracker.cpp(97): warning C4101: 'e': unreferenced local variable
+Tracker.cpp(139): warning C4101: 'e': unreferenced local variable
+Tracker.cpp(218): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+Tracker.cpp(222): warning C4101: 'e': unreferenced local variable
+Tracker.cpp(315): warning C4101: 'e': unreferenced local variable
+Tracker.cpp(356): warning C4244: 'argument': conversion from '__int64' to 'cliext::impl::vector_impl<_Value_t,false>::size_type', possible loss of data
+          with
+          [
+              _Value_t=keyStructure ^
+          ]
+Tracker.cpp(358): warning C4244: 'argument': conversion from '__int64' to 'cliext::impl::vector_impl<_Value_t,false>::size_type', possible loss of data
+          with
+          [
+              _Value_t=keyStructure ^
+          ]
+Tracker.cpp(360): warning C4244: 'argument': conversion from '__int64' to 'cliext::impl::vector_impl<_Value_t,false>::size_type', possible loss of data
+          with
+          [
+              _Value_t=keyStructure ^
+          ]
+Tracker.cpp(362): warning C4244: 'argument': conversion from '__int64' to 'cliext::impl::vector_impl<_Value_t,false>::size_type', possible loss of data
+          with
+          [
+              _Value_t=keyStructure ^
+          ]
+Tracker.cpp(363): warning C4244: 'argument': conversion from '__int64' to 'cliext::impl::vector_impl<_Value_t,false>::size_type', possible loss of data
+          with
+          [
+              _Value_t=keyStructure ^
+          ]
+Tracker.cpp(366): warning C4244: 'argument': conversion from '__int64' to 'cliext::impl::vector_impl<_Value_t,false>::size_type', possible loss of data
+          with
+          [
+              _Value_t=keyStructure ^
+          ]
+  MacroMaker.vcxproj -> C:\Users\Kali-Zoidberg\source\repos\MacroMaker\Debug\MacroMaker.exe

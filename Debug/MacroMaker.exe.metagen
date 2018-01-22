@@ -1,0 +1,52 @@
+  MacroMaker.Form1.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly MacroMaker, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC.STLCLR, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class keyStructure: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Double macroTimeUp : Public
+    Double macroTimeStart : Public
+    Double keyStrokeTimes : Public
+    System.String keyStrokes : Public
+    System.Windows.Forms.Keys macroKeyUp : Public
+Class Tracker: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    beginTracking(): PrivateScope, Public, HideBySig
+    writeKey(Double, Double, String): PrivateScope, Public, HideBySig
+    writeTimeUp(Double, Keys): PrivateScope, Public, HideBySig
+    createFile(): PrivateScope, Public, HideBySig
+    convertFileToString(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    getFileName(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setFileName(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    proccessKeyStroke(String&): PrivateScope, Public, HideBySig
+    runMacro(String): PrivateScope, Public, HideBySig
+    makeLower(String&): PrivateScope, Public, HideBySig
+    parseOem(String&): PrivateScope, Public, HideBySig
+    ~Tracker(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class CppCLR_WinformsProjekt.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getSentinelKey(): PrivateScope, Public, HideBySig
+    getTimer(): PrivateScope, Public, HideBySig
+    setTimer(Int32): PrivateScope, Public, HideBySig
